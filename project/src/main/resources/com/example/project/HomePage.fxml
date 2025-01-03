@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="657.0" prefWidth="741.0" style="-fx-background-color: #f2e7dd;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HomePageController">
+   <children>
+      <Pane prefHeight="124.0" prefWidth="742.0" style="-fx-background-color: ca8e82;">
+          <HBox layoutX="371.0" layoutY="47.0" spacing="50.0">
+              <Button  style="-fx-background-color: ca8e82;" text="Category " />
+              <Button  style="-fx-background-color: ca8e82;" text="About" />
+              <Button  style="-fx-background-color: ca8e82;" text="Contact" />
+          </HBox>
+         <Label layoutX="33.0" layoutY="46.0" style="-fx-font-size: 24; -fx-font-family: Helvetica; -fx-text-fill: bold;" text="Matzaw2ny ya Mama" />
+      </Pane>
+      <Pane prefHeight="273.0" prefWidth="742.0" style="-fx-background-color: f2d6ce;">
+         <children>
+             <HBox />
+              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@IMG/romandLipTint.jpg" />
+                  </image>
+                 </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="153.0" layoutX="328.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@IMG/Kayali Vanilla 28.jpg" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="553.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@IMG/Beauty of Joseon - Red Bean Water Gel .jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="65.0" layoutY="181.0" mnemonicParsing="false" style="-fx-background-color: f2d6ce;" text="romand Lip TInt" />
+            <Button layoutX="328.0" layoutY="181.0" mnemonicParsing="false" style="-fx-background-color: f2d6ce;" text="Kayali Vanilla" />
+            <Button layoutX="520.0" layoutY="181.0" mnemonicParsing="false" style="-fx-background-color: f2d6ce;" text="Red Bean water Gel Face Wash" />
+            <Label layoutX="91.0" layoutY="224.0" text="Price 10$" />
+            <Label layoutX="346.0" layoutY="224.0" text="Price 45$" />
+            <Label layoutX="586.0" layoutY="224.0" text="Price26$" />
+         </children>
+      </Pane>
+      <Pane prefHeight="273.0" prefWidth="742.0" style="-fx-background-color: f2d6ce;">
+         <children>
+            <HBox />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@IMG/FinoMask.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="296.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@IMG/The Body Shop – Strawberry Body Mantequilla – 200 ml.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="534.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@IMG/Red Bean Refreshing Pore Mask.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="63.0" layoutY="194.0" mnemonicParsing="false" style="-fx-background-color: f2d6ce;" text="Fino Hair Mask " />
+            <Button layoutX="302.0" layoutY="194.0" mnemonicParsing="false" style="-fx-background-color: f2d6ce;" text="Strawberry Body Butter" />
+            <Button layoutX="517.0" layoutY="194.0" mnemonicParsing="false" style="-fx-background-color: f2d6ce;" text="Red Bean Refreshing Pore Mask" />
+            <Label layoutX="88.0" layoutY="229.0" text="Price 32$" />
+            <Label layoutX="346.0" layoutY="229.0" text="price 85$" />
+            <Label layoutX="585.0" layoutY="229.0" text="Price 20$" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
